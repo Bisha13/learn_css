@@ -33,7 +33,7 @@ body {
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
-.col-8 {width: 66.66%%;}
+.col-8 {width: 66.66%;}
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
@@ -86,7 +86,10 @@ ul.topnav li.dropdownIcon {
     background-image: linear-gradient(#076DFF, #65a5ff);
 }
 .leftSide-col {
-    margin-left: 20%;
+    margin-left: 30%;
+}
+.rightSide-col {
+    margin-left: 15%;
 }
 h1.large {
     color:  #fff;
@@ -104,6 +107,7 @@ input[type="text"] {
     width: 400px;
     min-width: 100px;
     padding:  5px;
+    border-radius: 7px;
 }
 
 /* Mobile */
@@ -134,4 +138,25 @@ input[type="text"] {
         display: block;
         text-align: left;
     }
+
+    .col-6 {
+        width:100%;
+        margin: 0;
+    }
+
+    div.leftSide-col,
+    div.rightSide-col {
+        margin: 15px;
+    }
+
+    input[type="text"] {
+        width: 350px;
+    }
+    .videoContainer iFrame{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
 }
