@@ -1,0 +1,47 @@
+
+/* ***** Default ***** */
+nav, footer, header {
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+/* ***** Nav ***** */
+
+nav {
+    margin: 0;
+}
+
+nav ul {
+    background-color: lightgray;
+    overflow: hidden; /* why here? */
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ul.topnav li {
+    float: left;
+    list-style: none;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none; 
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666
+}
+ul.topnav li a:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+

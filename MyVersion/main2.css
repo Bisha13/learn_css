@@ -1,0 +1,59 @@
+/* Default */
+nav, header, footer {
+    display: block;
+}
+body {
+    margin: 0;
+}
+nav {
+    margin: 0;
+}
+nav ul.topnav {
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    line-height: 1;
+}
+nav ul.topnav li {
+    float: left;
+    list-style: none;
+    
+}
+nav ul.topnav li.topnav-right {
+    float: right;
+}
+nav ul.topnav li a {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #666;
+}
+nav ul.topnav li a:hover {
+    background-color: #777;
+    color: #fff;
+}
+nav ul.topnav li.dropDownIcon {
+    display: none;
+}
+
+@media screen and (max-width: 680px) {
+    nav ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    nav ul.topnav li.dropDownIcon {
+        display: block;
+        float: right;
+    }
+    nav ul.topnav.responsive li.dropDownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    nav ul.topnav.responsive li{
+        display: block;
+        float: none;
+    }
+}
+

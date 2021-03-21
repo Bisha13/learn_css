@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main2.css">
+    <title>My place</title>
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#why">Why me?</a></li>
+            <li><a href="#style">Style</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#theend">The end</a></li>
+            <li class="topnav-right"><a href="#login">Log In</a></li>
+            <li class="topnav-right"><a href="#signin">Sign In</a></li>
+            <li class="dropDownIcon"><a href="#" onclick="responsive()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section-1-gradient">
+ааа
+    </div>
+
+
+
+
+    <script>
+        function responsive(){
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") { 
+                x.className += " responsive";
+                // change topnav to topnav.responsive
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+</body>
+</html>
