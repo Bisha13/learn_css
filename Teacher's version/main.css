@@ -164,7 +164,23 @@ input[type="text"] {
     padding:  5px;
     border-radius: 7px;
 }
-
+footer.mainFooter {
+    background-color: #666;
+    padding-left: 10%;
+}
+footer.mainFooter h1 {
+    color: #fff;
+    font-size: 45px;
+}
+footer.mainFooter ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer.mainFooter ul li {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+}
 /* Mobile */
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
@@ -205,6 +221,10 @@ input[type="text"] {
     .col-7 {
         width:100%;
         /* margin: 0; */
+    }
+    div.mobileStack {
+        width: 50%;
+        display: block;
     }
     div.box {
         padding: 5px;
